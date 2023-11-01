@@ -63,14 +63,17 @@ var VehiculoAereo = /** @class */ (function (_super) {
     };
     return VehiculoAereo;
 }(Vehiculo));
-// Ejemplo de uso
 var camion = new VehiculoTerrestre("Mercedez", "FA150", "Camión");
 var camioeta = new VehiculoTerrestre("Ford", "F-150", "camioneta");
 var automovil = new VehiculoTerrestre("Chevrolet", "Fortuner", "automovil");
 camion.mostrarInformacion();
+camioeta.mostrarInformacion();
+automovil.mostrarInformacion();
 var yate = new VehiculoMaritimo("Azimut", "42S", "14 metros");
 var barco = new VehiculoMaritimo("Fairline", "849", "50 metros");
 yate.mostrarInformacion();
+barco.mostrarInformacion();
 var avion = new VehiculoAereo("Boeing", "747", "68 metros");
 var avioneta = new VehiculoAereo("Bombardie", "7400", "25 metros");
 avion.mostrarInformacion();
+avioneta.mostrarInformacion();
